@@ -20,5 +20,11 @@ public class ApplicationController {
         return "PUNE | MH | CSI ";
     }
 
+    @GetMapping("/address")
+    public String address()
+    {
+        return "NASHIK | MH | CSI ";
+    }
+
 
 }
