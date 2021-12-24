@@ -14,8 +14,8 @@ public class ApplicationController {
         return "WELCOME TO CSI PUNE";
     }
 
-    @GetMapping("/address")
-    public String address()
+    @GetMapping("/services")
+    public String services()
     {
         return "PUNE | MH | CSI ";
     }
